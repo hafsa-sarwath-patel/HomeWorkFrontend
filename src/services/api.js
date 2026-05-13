@@ -1,4 +1,4 @@
-const BASE_URL = 'http://10.0.2.2:5000';
+const BASE_URL = 'https://homeworkback.onrender.com';
 
 export const createTask = async data => {
   const response = await fetch(`${BASE_URL}/task/create`, {
